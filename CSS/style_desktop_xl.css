@@ -1,0 +1,197 @@
+/*Geral*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Courier New', Courier, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #CCCCCC;
+}
+
+/*Desktop Grande (XL)*/
+@media screen and (min-width: 993px) {
+
+    /*Menu*/
+    .menu {
+        display: none;
+    }
+
+    .menu__general {
+        background-color: #000E2D;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px 2px;
+    }
+
+    .menu__general .menu__general__image {
+        width: 6%;
+    }
+
+    .menu__general .menu__general__list {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+
+    .menu__general__list .menu__general__item {
+        list-style: none;
+        font-size: 1.3rem;
+        text-align: end;
+        padding-right: 1rem;
+    }
+
+    .menu__general__list .menu__general__item a {
+        color: #F2AF2D;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    /* Titulos das Páginas */
+    .titulos {
+        color: #ffffff;
+        font-size: 2.5rem;
+        font-weight: bold;
+        padding-top: 1rem;
+    }
+
+    /*Home*/
+    #home {
+        background-image: url("../Imagens/espaço.jpg");
+        height: 92vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 2rem 2rem;
+    }
+
+    #home h3 {
+        font-size: 2rem;
+        color: #ffffff;
+        text-align: left;
+        background-color: rgba(204, 204, 204, 0.4);
+        padding-top: 1rem;
+        padding-left: 1.5rem;
+        margin-right: 50%;
+        margin-top: 10rem;
+        margin-bottom: 0rem;
+    }
+
+    #home div {
+        font-size: 1.3rem;
+        color: #ffffff;
+        text-align: justify;
+        background-color: rgba(204, 204, 204, 0.4);
+        padding: 1rem 1.5rem 1.5rem 1.5rem;
+        margin-right: 50%;
+    }
+
+    /* Viagens */
+    #viagens {
+        margin-bottom: 5rem;
+        padding: 2rem 2rem;
+    }
+
+    #viagens .titulos {
+        color: #000E2D;
+        padding-bottom: 3rem;
+    }
+
+    #viagens #carousel_align {
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .imgPlaneta {
+        width: 80vh !important;
+        height: 60vh !important;
+    }
+
+    .boxPlaneta {
+        width: 80vh;
+        background-image: linear-gradient(to bottom, #AFCCDA, #e0e0e0);
+        vertical-align: top;
+    }
+
+    .boxPlaneta h4 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        padding: 1.5rem 0rem 1rem 0rem;
+        color: #000E2D
+    }
+
+    .boxPlaneta p {
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: justify;
+        color: #000E2D;
+        padding: 1rem 1rem 0rem 1rem;
+
+    }
+
+    /*Novidades*/
+    #novidades {
+        background-image: url("../Imagens/novidades.jpg");
+        height: 92vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 2rem 2rem;
+    }
+
+    #novidades h3 {
+        font-size: 2rem;
+        color: #ffffff;
+        text-align: left;
+        background-color: rgba(204, 204, 204, 0.4);
+        padding-top: 1rem;
+        padding-left: 1.5rem;
+        margin-right: 50%;
+        margin-top: 10rem;
+        margin-bottom: 0rem;
+    }
+
+    #novidades div {
+        font-size: 1.3rem;
+        color: #ffffff;
+        text-align: justify;
+        background-color: rgba(204, 204, 204, 0.4);
+        padding: 1rem 1.5rem 1.5rem 1.5rem;
+        margin-right: 50%;
+    }
+
+    #novidades .buttom {
+        padding-left: px;
+        color: #F2AF2D;
+    }
+
+    /*Rodapé*/
+    #rodape {
+        background-color: #000E2D;
+        text-align: left;
+        padding: 0.1rem 0.5rem 0.5rem 0.5rem;
+    }
+
+    #rodape p {
+        color: aliceblue;
+        line-height: 2;
+        font-weight: normal;
+        font-size: 90%;
+    }
+
+    #rodape p a {
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: bold;
+    }
+
+}
