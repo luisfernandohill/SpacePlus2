@@ -1,0 +1,106 @@
+/*Desktop*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    /*Menu*/
+    .menu {
+        display: none;
+    }
+    .menu__general {
+        background-color: #000E2D;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px 2px;
+    
+        .menu__general__image {
+            width: 6%;
+        }
+
+        .menu__general__list {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+
+            .menu__general__item {
+                list-style: none;
+                font-size: 1.3rem;
+                text-align: end;
+                padding-right: 1rem;
+
+                a {
+                    color: #F2AF2D;
+                    text-decoration: none;
+                    font-weight: bold;
+
+                    &:hover {
+                        color: #CCCCCC;
+                    }
+                }
+            }
+        }
+    }
+
+
+    /* Titulos das Páginas */
+    .titulos {
+        color: #ffffff;
+        font-size: 2.5rem;
+        font-weight: bold;
+        padding-top: 1rem;
+    }
+
+    /*Home*/
+    #home {
+        background-image: url("/Imagens/espaço.jpg");
+        height: 92vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 2rem 2rem;
+
+        h3 {
+            font-size: 2rem;
+            color: #ffffff;
+            text-align: left;
+            background-color: rgba(204, 204, 204, 0.4);
+            padding-top: 1rem;
+            padding-left: 1.5rem;
+            margin-right: 30%;
+            margin-top: 6rem;
+            margin-bottom: 0rem;
+        }
+
+        div {
+            font-size: 1.3rem;
+            color: #ffffff;
+            text-align: justify;
+            background-color: rgba(204, 204, 204, 0.4);
+            padding: 1rem 1.5rem 1.5rem 1.5rem;
+            margin-right: 30%;
+        }
+    }
+
+ 
+    /*Rodapé*/
+    #rodape {
+        background-color: #000E2D;
+        text-align: left;
+        padding: 0.1rem 0.5rem 0.5rem 0.5rem;
+    
+        p {
+            color: aliceblue;
+            line-height: 2;
+            font-weight: normal;
+            font-size: 90%;
+
+            a {
+                text-decoration: none;
+                color: aliceblue;
+                font-weight: bold;
+            }
+        }
+    }
+
+}
