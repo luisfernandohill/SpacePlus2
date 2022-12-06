@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*Desktop Grande (XL)*/
+/*Global*/
 @media screen and (min-width: 993px) {
   /*Menu*/
   .menu {

@@ -11,7 +11,9 @@ body {
   overflow-x: hidden; }
 
 /*Imports*/
+/*Global*/
 /*Desktop Grande (XL)*/
+/*Global*/
 @media screen and (min-width: 993px) {
   /*Menu*/
   .menu {
@@ -88,6 +90,7 @@ body {
         font-weight: bold; } }
 
 /*Desktop*/
+/*Global*/
 @media screen and (min-width: 769px) and (max-width: 992px) {
   /*Menu*/
   .menu {
@@ -164,6 +167,7 @@ body {
         font-weight: bold; } }
 
 /*Tablet*/
+/*Global*/
 @media screen and (min-width: 577px) and (max-width: 768px) {
   /*Menu*/
   .menu {
@@ -238,6 +242,7 @@ body {
         font-weight: bold; } }
 
 /*Mobile*/
+/*Global*/
 @media screen and (max-width: 576px) {
   /*Menu*/
   .menu__general {
@@ -308,5 +313,3 @@ body {
         text-decoration: none;
         color: aliceblue;
         font-weight: bold; } }
-
-/*Global*/

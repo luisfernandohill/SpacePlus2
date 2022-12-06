@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*Mobile*/
+/*Global*/
 @media screen and (max-width: 576px) {
   /*Menu*/
   .menu__general {

@@ -1,4 +1,7 @@
 /*Tablet*/
+
+@import './_variaveis.scss';
+
 @media screen and (min-width: 577px) and (max-width: 768px) {
 
     /*Menu*/
@@ -6,7 +9,7 @@
         display: none;
     }
     .menu__general {
-        background-color: #000E2D;
+        background-color:$color-primaria;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -28,7 +31,7 @@
                 padding-right: 1rem;
 
                 a {
-                    color: #F2AF2D;
+                    color: $color-secundaria;
                     text-decoration: none;
                     font-weight: bold;
                 }
@@ -39,7 +42,7 @@
 
     /* Titulos das Páginas */
     .titulos {
-        color: #ffffff;
+        color:$color-titulo;
         font-size: 2rem;
         font-weight: bold;
         padding-top: 0rem;
@@ -81,7 +84,7 @@
  
     /*Rodapé*/
     #rodape {
-        background-color: #000E2D;
+        background-color: $color-primaria;
         text-align: left;
         padding: 0.1rem 0.5rem 0.5rem 0.5rem;
     

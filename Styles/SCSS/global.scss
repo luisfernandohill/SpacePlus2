@@ -13,8 +13,8 @@ body {
 }
 
 /*Imports*/
+@import './_variaveis.scss';
 @import './style_desktop_xl.scss';
 @import './style_desktop.scss';
 @import './style_tablet.scss';
 @import './style_mobile.scss';
-@import './_variaveis';
