@@ -1,4 +1,7 @@
 /*Mobile*/
+
+@import './_variaveis.scss';
+
 @media screen and (max-width: 576px) {
 
     /*Menu*/
@@ -11,14 +14,14 @@
         flex-direction: row;
         justify-content: space-between;
         padding-left: 20px;
-        background-color: #000E2D;
+        background-color: $color-primaria;
     
         .menu__image {
             width: 15%;
         }
 
         .menu__list {
-            background-color: #000E2D;
+            background-color:$color-primaria;
             padding: 10px;
         
             .menu__item {
@@ -27,7 +30,7 @@
                 text-align: end;
             
                 a {
-                    color: #F2AF2D;
+                    color:$color-secundaria;
                     text-decoration: none;
                     font-weight: bold;
                 }
@@ -37,7 +40,7 @@
 
     /* Titulos das Páginas */
     .titulos {
-        color: #ffffff;
+        color: $color-titulo;
         font-size: 2rem;
         font-weight: bold;
         padding-top: 0rem;
@@ -79,7 +82,7 @@
  
     /*Rodapé*/
     #rodape {
-        background-color: #000E2D;
+        background-color: $color-primaria;
         text-align: left;
         padding: 0.1rem 0.5rem 0.5rem 0.5rem;
     
