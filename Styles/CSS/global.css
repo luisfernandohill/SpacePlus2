@@ -1,5 +1,16 @@
 @charset "UTF-8";
 /* SCSS de Toda a Landing Page (Mobile, Tablet, Desktop e Desktop xl)*/
+/*Geral*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', 'Courier New', Courier, sans-serif; }
+
+body {
+  overflow-x: hidden; }
+
+/*Imports*/
 /*Desktop Grande (XL)*/
 @media screen and (min-width: 993px) {
   /*Menu*/
@@ -297,3 +308,5 @@
         text-decoration: none;
         color: aliceblue;
         font-weight: bold; } }
+
+/*Global*/
