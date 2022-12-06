@@ -1,6 +1,20 @@
 /* SCSS de Toda a Landing Page (Mobile, Tablet, Desktop e Desktop xl)*/ 
 
+/*Geral*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Courier New', Courier, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*Imports*/
 @import './style_desktop_xl.scss';
 @import './style_desktop.scss';
 @import './style_tablet.scss';
 @import './style_mobile.scss';
+@import './_variaveis';
