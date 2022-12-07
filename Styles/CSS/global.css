@@ -50,7 +50,7 @@ body {
     padding-top: 1rem; }
   /*Home*/
   #home {
-    background-image: url("/Imagens/espaço.jpg");
+    background-image: url("../Imagens/espaço.jpg");
     height: 92vh;
     background-attachment: fixed;
     background-position: center;
@@ -127,7 +127,7 @@ body {
     padding-top: 1rem; }
   /*Home*/
   #home {
-    background-image: url("/Imagens/espaço.jpg");
+    background-image: url("../Imagens/espaço.jpg");
     height: 92vh;
     background-attachment: fixed;
     background-position: center;
@@ -201,7 +201,7 @@ body {
     padding-top: 0rem; }
   /*Home*/
   #home {
-    background-image: url("/Imagens/espaço.jpg");
+    background-image: url("../Imagens/espaço.jpg");
     height: 75vh;
     background-attachment: fixed;
     background-position: center;
@@ -255,17 +255,17 @@ body {
     background-color: #000E2D; }
     .menu .menu__image {
       width: 15%; }
-    .menu .menu__list {
-      background-color: #000E2D;
-      padding: 10px; }
-      .menu .menu__list .menu__item {
-        list-style: none;
-        font-size: 16px;
-        text-align: end; }
-        .menu .menu__list .menu__item a {
-          color: #F2AF2D;
-          text-decoration: none;
-          font-weight: bold; }
+  .menu__list {
+    background-color: #000E2D;
+    padding: 10px; }
+    .menu__list .menu__item {
+      list-style: none;
+      font-size: 16px;
+      text-align: end; }
+      .menu__list .menu__item a {
+        color: #F2AF2D;
+        text-decoration: none;
+        font-weight: bold; }
   /* Titulos das Páginas */
   .titulos {
     color: #ffffff;
@@ -274,7 +274,7 @@ body {
     padding-top: 0rem; }
   /*Home*/
   #home {
-    background-image: url("/Imagens/espaço.jpg");
+    background-image: url("../Imagens/espaço.jpg");
     height: 80vh;
     background-attachment: fixed;
     background-position: center;

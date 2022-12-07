@@ -34,7 +34,7 @@
     padding-top: 0rem; }
   /*Home*/
   #home {
-    background-image: url("/Imagens/espaço.jpg");
+    background-image: url("../Imagens/espaço.jpg");
     height: 75vh;
     background-attachment: fixed;
     background-position: center;
