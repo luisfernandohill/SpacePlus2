@@ -16,21 +16,21 @@
         .menu__image {
             width: 15%;
         }
+    }
 
-        .menu__list {
-            background-color: #000E2D;
-            padding: 10px;
+    .menu__list {
+        background-color: #000E2D;
+        padding: 10px;
         
-            .menu__item {
-                list-style: none;
-                font-size: 16px;
-                text-align: end;
+        .menu__item {
+            list-style: none;
+            font-size: 16px;
+            text-align: end;
             
-                a {
-                    color: #F2AF2D;
-                    text-decoration: none;
-                    font-weight: bold;
-                }
+             a {
+                color: #F2AF2D;
+                text-decoration: none;
+                font-weight: bold;
             }
         }
     }
@@ -45,7 +45,7 @@
 
     /*Home*/
     #home {
-        background-image: url("/Imagens/espaço.jpg");
+        background-image: url("../Imagens/espaço.jpg");
         height: 80vh;
         background-attachment: fixed;
         background-position: center;
