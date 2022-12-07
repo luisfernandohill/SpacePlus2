@@ -14,14 +14,14 @@
         flex-direction: row;
         justify-content: space-between;
         padding-left: 20px;
-        background-color: $color-primaria;
+        background-color: #000E2D;
     
         .menu__image {
             width: 15%;
         }
 
         .menu__list {
-            background-color:$color-primaria;
+            background-color: #000E2D;
             padding: 10px;
         
             .menu__item {
@@ -30,7 +30,7 @@
                 text-align: end;
             
                 a {
-                    color:$color-secundaria;
+                    color: #F2AF2D;
                     text-decoration: none;
                     font-weight: bold;
                 }
@@ -82,7 +82,7 @@
  
     /*Rodapé*/
     #rodape {
-        background-color: $color-primaria;
+        background-color: #000E2D;
         text-align: left;
         padding: 0.1rem 0.5rem 0.5rem 0.5rem;
     
