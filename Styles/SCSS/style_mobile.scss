@@ -15,7 +15,7 @@
         justify-content: space-between;
         padding-left: 20px;
         background-color: #000E2D;
-    
+
         .menu__image {
             width: 15%;
         }
@@ -24,13 +24,13 @@
     .menu__list {
         background-color: #000E2D;
         padding: 10px;
-        
+
         .menu__item {
             list-style: none;
             font-size: 16px;
             text-align: end;
-            
-             a {
+
+            a {
                 color: #F2AF2D;
                 text-decoration: none;
                 font-weight: bold;
@@ -79,13 +79,59 @@
         }
     }
 
- 
+    /* Viagens */
+    #viagens {
+        margin-bottom: 3.5rem;
+        padding: 2rem 2rem;
+
+        .titulos {
+            color: #000E2D;
+            padding-bottom: 3rem;
+        }
+
+        #carousel_align {
+            display: flex;
+            justify-content: center;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    }
+
+    .imgPlaneta {
+        width: 50vh !important;
+        height: 40vh !important;
+    }
+
+    .boxPlaneta {
+        width: 50vh;
+        background-image: linear-gradient(to bottom, #AFCCDA, #e0e0e0);
+        display: inline-block;
+        vertical-align: top;
+
+        h4 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 1.5rem 0rem 1rem 0rem;
+            color: #000E2D
+        }
+
+        p {
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-align: justify;
+            color: #000E2D;
+            padding: 1rem 1rem 0rem 1rem;
+        }
+    }
+
+
     /*Rodapé*/
     #rodape {
         background-color: #000E2D;
         text-align: left;
         padding: 0.1rem 0.5rem 0.5rem 0.5rem;
-    
+
         p {
             color: aliceblue;
             line-height: 1;
