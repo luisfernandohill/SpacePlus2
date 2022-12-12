@@ -156,6 +156,24 @@
       transition: 1s; }
       .boxPessoa p:hover {
         color: #ffffff; }
+  /* Contato */
+  #contato {
+    padding: 2rem 2rem; }
+  .contatoInfo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center; }
+  #mapa {
+    padding: 20px 0px 50px 20px;
+    width: 35%; }
+  #boxContato {
+    width: 50%;
+    height: 320px;
+    padding: 25px 0px 500px 0px; }
+  #contato1 {
+    font-size: 1rem;
+    padding: 0px 0px 50px 20px; }
   /*Rodapé*/
   #rodape {
     background-color: #000E2D;
