@@ -11,9 +11,7 @@ body {
   overflow-x: hidden; }
 
 /*Imports*/
-/*Global*/
 /*Desktop Grande (XL)*/
-/*Global*/
 @media screen and (min-width: 993px) {
   /*Menu*/
   .menu {
@@ -74,6 +72,37 @@ body {
       background-color: rgba(204, 204, 204, 0.4);
       padding: 1rem 1.5rem 1.5rem 1.5rem;
       margin-right: 50%; }
+  /* Viagens */
+  #viagens {
+    margin-bottom: 5rem;
+    padding: 2rem 2rem; }
+    #viagens .titulos {
+      color: #000E2D;
+      padding-bottom: 3rem; }
+    #viagens #carousel_align {
+      display: flex;
+      justify-content: center;
+      margin-left: 10%;
+      margin-right: 10%; }
+  .imgPlaneta {
+    width: 80vh !important;
+    height: 60vh !important; }
+  .boxPlaneta {
+    width: 80vh;
+    background-image: linear-gradient(to bottom, #AFCCDA, #e0e0e0);
+    vertical-align: top; }
+    .boxPlaneta h4 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      padding: 1.5rem 0rem 1rem 0rem;
+      color: #000E2D; }
+    .boxPlaneta p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-align: justify;
+      color: #000E2D;
+      padding: 1rem 1rem 1rem 1rem; }
   /*Rodapé*/
   #rodape {
     background-color: #000E2D;
@@ -90,7 +119,6 @@ body {
         font-weight: bold; } }
 
 /*Desktop*/
-/*Global*/
 @media screen and (min-width: 769px) and (max-width: 992px) {
   /*Menu*/
   .menu {
@@ -151,6 +179,37 @@ body {
       background-color: rgba(204, 204, 204, 0.4);
       padding: 1rem 1.5rem 1.5rem 1.5rem;
       margin-right: 30%; }
+  /* Viagens */
+  #viagens {
+    margin-bottom: 5rem;
+    padding: 2rem 2rem; }
+    #viagens .titulos {
+      color: #000E2D;
+      padding-bottom: 3rem; }
+    #viagens #carousel_align {
+      display: flex;
+      justify-content: center;
+      margin-left: 10%;
+      margin-right: 10%; }
+  .imgPlaneta {
+    width: 80vh !important;
+    height: 60vh !important; }
+  .boxPlaneta {
+    width: 80vh;
+    background-image: linear-gradient(to bottom, #AFCCDA, #e0e0e0);
+    vertical-align: top; }
+    .boxPlaneta h4 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      padding: 1rem 1rem 1rem 1rem;
+      color: #000E2D; }
+    .boxPlaneta p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-align: justify;
+      color: #000E2D;
+      padding: 1rem 1rem 1rem 1rem; }
   /*Rodapé*/
   #rodape {
     background-color: #000E2D;
@@ -167,7 +226,6 @@ body {
         font-weight: bold; } }
 
 /*Tablet*/
-/*Global*/
 @media screen and (min-width: 577px) and (max-width: 768px) {
   /*Menu*/
   .menu {
@@ -226,6 +284,38 @@ body {
       padding: 1rem 1.5rem 1.5rem 0rem;
       margin-right: 2%;
       margin-left: 2%; }
+  /* Viagens */
+  #viagens {
+    margin-bottom: 3.5rem;
+    padding: 2rem 2rem; }
+    #viagens .titulos {
+      color: #000E2D;
+      padding-bottom: 3rem; }
+    #viagens #carousel_align {
+      display: flex;
+      justify-content: center;
+      margin-left: 20%;
+      margin-right: 20%; }
+  .imgPlaneta {
+    width: 60vh !important;
+    height: 40vh !important; }
+  .boxPlaneta {
+    width: 60vh;
+    background-image: linear-gradient(to bottom, #AFCCDA, #e0e0e0);
+    display: inline-block;
+    vertical-align: top; }
+    .boxPlaneta h4 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      padding: 1.5rem 0rem 1rem 0rem;
+      color: #000E2D; }
+    .boxPlaneta p {
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-align: justify;
+      color: #000E2D;
+      padding: 1rem 1rem 0rem 1rem; }
   /*Rodapé*/
   #rodape {
     background-color: #000E2D;
@@ -242,7 +332,6 @@ body {
         font-weight: bold; } }
 
 /*Mobile*/
-/*Global*/
 @media screen and (max-width: 576px) {
   /*Menu*/
   .menu__general {
@@ -299,6 +388,38 @@ body {
       padding: 1rem 1.5rem 1.5rem 0rem;
       margin-right: 2%;
       margin-left: 2%; }
+  /* Viagens */
+  #viagens {
+    margin-bottom: 3.5rem;
+    padding: 2rem 2rem; }
+    #viagens .titulos {
+      color: #000E2D;
+      padding-bottom: 3rem; }
+    #viagens #carousel_align {
+      display: flex;
+      justify-content: center;
+      margin-left: 10%;
+      margin-right: 10%; }
+  .imgPlaneta {
+    width: 50vh !important;
+    height: 40vh !important; }
+  .boxPlaneta {
+    width: 50vh;
+    background-image: linear-gradient(to bottom, #AFCCDA, #e0e0e0);
+    display: inline-block;
+    vertical-align: top; }
+    .boxPlaneta h4 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      padding: 1.5rem 0rem 1rem 0rem;
+      color: #000E2D; }
+    .boxPlaneta p {
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-align: justify;
+      color: #000E2D;
+      padding: 1rem 1rem 0rem 1rem; }
   /*Rodapé*/
   #rodape {
     background-color: #000E2D;

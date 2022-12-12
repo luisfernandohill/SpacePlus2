@@ -1,6 +1,5 @@
 /*Mobile*/
 
-@import './_variaveis.scss';
 
 @media screen and (max-width: 576px) {
 
@@ -40,7 +39,7 @@
 
     /* Titulos das Páginas */
     .titulos {
-        color: $color-titulo;
+        color: #ffffff;
         font-size: 2rem;
         font-weight: bold;
         padding-top: 0rem;
