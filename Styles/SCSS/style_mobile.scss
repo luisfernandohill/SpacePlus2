@@ -157,6 +157,50 @@
         }
     }
 
+    /*Quem Somos*/
+    #quemSomos {
+        margin-bottom: 3.5rem;
+        padding: 2rem 2rem;
+
+        .titulos {
+            color: #000E2D;
+            padding-bottom: 3rem;
+        }
+    }
+
+    .quemSomosImagem {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 1rem;
+    }
+
+    .quemSomosTexto {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 1.5rem;
+    }
+
+    .imgPessoa img {
+        width: 17vh;
+        display: inline-block;
+    }
+
+    .boxPessoa {
+        width: 20vh;
+        height: auto;
+        background-color: #F2AF2D;
+        padding-top: 0rem;
+        display: inline-block;
+
+        p {
+            font-size: 1rem;
+            font-weight: bold;
+            text-align: center;
+            color: #000E2D;
+            padding: 1rem 1rem 0rem 1rem;
+        }
+    }
+
     /*Rodapé*/
     #rodape {
         background-color: #000E2D;
