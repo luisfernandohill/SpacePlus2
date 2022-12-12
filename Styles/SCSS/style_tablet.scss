@@ -128,6 +128,40 @@
     }
 
 
+    /*Novidades*/
+    #novidades {
+        background-image: url("../Imagens/novidades.jpg");
+        height: 80vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 2rem 2rem;
+    
+        h3 {
+            font-size: 1.5rem;
+            padding-top: 1rem;
+            color: #ffffff;
+            text-align: center;
+            background-color: rgba(204, 204, 204, 0.4);
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-top: 5rem;
+            margin-bottom: 0rem;
+        }
+
+        div {
+            font-size: 1.1rem;
+            color: #ffffff;
+            text-align: justify;
+            background-color: rgba(204, 204, 204, 0.4);
+            padding: 1rem 1.5rem 1.5rem 0rem;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+    }
+
+
     /*Rodapé*/
     #rodape {
         background-color: #000E2D;
