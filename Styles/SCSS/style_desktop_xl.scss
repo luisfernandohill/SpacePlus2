@@ -1,6 +1,5 @@
 /*Desktop Grande (XL)*/
 
-@import './_variaveis.scss';
 
 @media screen and (min-width: 993px) {
 
@@ -10,7 +9,7 @@
     }
 
     .menu__general {
-        background-color: $color-primaria;
+        background-color: #000E2D;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -33,12 +32,12 @@
                 padding-right: 1rem;
 
                 a {
-                    color: $color-secundaria;
+                    color: #F2AF2D;
                     text-decoration: none;
                     font-weight: bold;
 
                     &:hover {
-                        color: $color-fundo;
+                        color: #CCCCCC;
                     }
                 }
             }
@@ -48,7 +47,7 @@
 
     /* Titulos das Páginas */
     .titulos {
-        color: $color-titulo;
+        color: #ffffff;
         font-size: 2.5rem;
         font-weight: bold;
         padding-top: 1rem;
@@ -135,7 +134,7 @@
  
     /*Rodapé*/
     #rodape {
-        background-color:$color-primaria;
+        background-color: #000E2D;
         text-align: left;
         padding: 0.1rem 0.5rem 0.5rem 0.5rem;
     
