@@ -15,7 +15,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 0px 20px 2px;
-    
+
         .menu__general__image {
             width: 6%;
         }
@@ -90,7 +90,7 @@
     #viagens {
         margin-bottom: 5rem;
         padding: 2rem 2rem;
-    
+
         .titulos {
             color: #000E2D;
             padding-bottom: 3rem;
@@ -113,7 +113,7 @@
         width: 80vh;
         background-image: linear-gradient(to bottom, #AFCCDA, #e0e0e0);
         vertical-align: top;
-        
+
         h4 {
             font-size: 1.5rem;
             font-weight: bold;
@@ -129,15 +129,51 @@
             color: #000E2D;
             padding: 1rem 1rem 1rem 1rem;
         }
-    } 
+    }
 
- 
+    /*Novidades*/
+    #novidades {
+        background-image: url("../Imagens/novidades.jpg");
+        height: 92vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 2rem 2rem;
+    
+        h3 {
+            font-size: 2rem;
+            color: #ffffff;
+            text-align: left;
+            background-color: rgba(204, 204, 204, 0.4);
+            padding-top: 1rem;
+            padding-left: 1.5rem;
+            margin-right: 50%;
+            margin-top: 10rem;
+            margin-bottom: 0rem;
+        }
+
+        div {
+            font-size: 1.3rem;
+            color: #ffffff;
+            text-align: justify;
+            background-color: rgba(204, 204, 204, 0.4);
+            padding: 1rem 1.5rem 1.5rem 1.5rem;
+            margin-right: 50%;
+        }
+
+        .buttom {
+            color: #F2AF2D;
+        }
+    }
+
+
     /*Rodapé*/
     #rodape {
         background-color: #000E2D;
         text-align: left;
         padding: 0.1rem 0.5rem 0.5rem 0.5rem;
-    
+
         p {
             color: aliceblue;
             line-height: 2;
