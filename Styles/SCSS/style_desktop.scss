@@ -8,14 +8,15 @@
     .menu {
         display: none;
     }
+
     .menu__general {
-        background-color:$color-primaria;
+        background-color: $color-primaria;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         padding: 0px 20px 2px;
-    
+
         .menu__general__image {
             width: 6%;
         }
@@ -32,12 +33,12 @@
                 padding-right: 1rem;
 
                 a {
-                    color:$color-secundaria;
+                    color: $color-secundaria;
                     text-decoration: none;
                     font-weight: bold;
 
                     &:hover {
-                        color:$color-fundo;
+                        color: $color-fundo;
                     }
                 }
             }
@@ -47,7 +48,7 @@
 
     /* Titulos das Páginas */
     .titulos {
-        color:$color-titulo;
+        color: $color-titulo;
         font-size: 2.5rem;
         font-weight: bold;
         padding-top: 1rem;
@@ -85,13 +86,58 @@
         }
     }
 
- 
+    /* Viagens */
+    #viagens {
+        margin-bottom: 5rem;
+        padding: 2rem 2rem;
+
+        .titulos {
+            color: #000E2D;
+            padding-bottom: 3rem;
+        }
+
+        #carousel_align {
+            display: flex;
+            justify-content: center;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    }
+
+    .imgPlaneta {
+        width: 80vh !important;
+        height: 60vh !important;
+    }
+
+    .boxPlaneta {
+        width: 80vh;
+        background-image: linear-gradient(to bottom, #AFCCDA, #e0e0e0);
+        vertical-align: top;
+
+        h4 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 1rem 1rem 1rem 1rem;
+            color: #000E2D
+        }
+
+        p {
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: justify;
+            color: #000E2D;
+            padding: 1rem 1rem 1rem 1rem;
+        }
+    }
+
+
     /*Rodapé*/
     #rodape {
-        background-color:$color-primaria;
+        background-color: $color-primaria;
         text-align: left;
         padding: 0.1rem 0.5rem 0.5rem 0.5rem;
-    
+
         p {
             color: aliceblue;
             line-height: 2;
