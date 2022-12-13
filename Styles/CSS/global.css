@@ -8,7 +8,8 @@
   font-family: 'Lato', 'Courier New', Courier, sans-serif; }
 
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background-color: #CCCCCC; }
 
 /*Imports*/
 /*Desktop Grande (XL)*/
