@@ -162,7 +162,7 @@
   .contatoInfo {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center; }
   #mapa {
     padding: 20px 0px 50px 20px;

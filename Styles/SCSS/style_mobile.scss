@@ -213,14 +213,23 @@
     }
     
     #mapa {
-        padding: 40px 0px 50px 20px;
-        width: 35%;
+        display: none;
     }
     
     #boxContato {
         width: 50%;
         height: 320px;
-        padding: 25px 0px 500px 0px;
+        padding: 25px 0px 500px 0px; 
+
+        .radio{
+            display: block;
+        }
+
+        .mensagem{
+                height: 6em;
+                width: 15em;
+        }
+
     }
     
     #contato1 {
