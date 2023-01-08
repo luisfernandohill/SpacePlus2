@@ -50,7 +50,7 @@ body {
   /*Home*/
   #home {
     background-image: url("../Imagens/espaço.jpg");
-    height: 92vh;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@ body {
   /*Novidades*/
   #novidades {
     background-image: url("../Imagens/novidades.jpg");
-    height: 92vh;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -242,7 +242,7 @@ body {
   /*Home*/
   #home {
     background-image: url("../Imagens/espaço.jpg");
-    height: 92vh;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -299,7 +299,7 @@ body {
   /*Novidades*/
   #novidades {
     background-image: url("../Imagens/novidades.jpg");
-    height: 92vh;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -431,7 +431,7 @@ body {
   /*Home*/
   #home {
     background-image: url("../Imagens/espaço.jpg");
-    height: 75vh;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -490,7 +490,7 @@ body {
   /*Novidades*/
   #novidades {
     background-image: url("../Imagens/novidades.jpg");
-    height: 80vh;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -612,7 +612,7 @@ body {
   /*Home*/
   #home {
     background-image: url("../Imagens/espaço.jpg");
-    height: 80vh;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -671,7 +671,7 @@ body {
   /*Novidades*/
   #novidades {
     background-image: url("../Imagens/novidades.jpg");
-    height: 80vh;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
