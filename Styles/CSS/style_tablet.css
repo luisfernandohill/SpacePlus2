@@ -34,7 +34,7 @@
   /*Home*/
   #home {
     background-image: url("../Imagens/espaço.jpg");
-    height: 75vh;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@
   /*Novidades*/
   #novidades {
     background-image: url("../Imagens/novidades.jpg");
-    height: 80vh;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
