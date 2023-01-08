@@ -175,7 +175,7 @@ body {
   .contatoInfo {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center; }
   #mapa {
     padding: 20px 0px 50px 20px;
@@ -734,12 +734,16 @@ body {
     flex-direction: column;
     justify-content: center; }
   #mapa {
-    padding: 40px 0px 50px 20px;
-    width: 35%; }
+    display: none; }
   #boxContato {
     width: 50%;
     height: 320px;
     padding: 25px 0px 500px 0px; }
+    #boxContato .radio {
+      display: block; }
+    #boxContato .mensagem {
+      height: 6em;
+      width: 15em; }
   #contato1 {
     font-size: 1rem;
     padding: 0px 0px 50px 20px; }
